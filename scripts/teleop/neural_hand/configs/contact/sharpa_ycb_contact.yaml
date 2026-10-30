@@ -1,0 +1,50 @@
+# Generates grasp specs only. Manus capture turns them into contact-supervision data.
+output: sharpa_grasp.npz
+init_pose_asset: sharpa_contact_align_inhand
+human_reference_asset: manus_unsupervised
+
+objects:
+  - 006_mustard_bottle
+  - 007_tuna_fish_can
+  - 008_pudding_box
+  - 009_gelatin_box
+  - 010_potted_meat_can
+  - 011_banana
+  - 013_apple
+  - 014_lemon
+  - 016_pear
+  - 017_orange
+  - 025_mug
+  - 061_foam_brick
+  - 077_rubiks_cube
+
+combos:
+  - [0, 2]
+  - [0, 1, 2]
+  - [0, 1, 2, 3]
+  - [0, 1, 2, 3, 4]
+
+grasps_per_combo: 8
+max_keep_per_object: 4
+iterations: 2500
+learning_rate: 0.01
+grasp_penetration: 0.002
+self_collision_margin: 0.001
+sdf_voxel_size: 0.002
+sdf_padding: 0.03
+seed: 0
+
+losses:
+  contact: 100.0
+  penetration: 700.0
+  self_collision: 20.0
+  force_closure: 0.05
+  regularization: 0.01
+  joint_limit: 10.0
+
+filter:
+  max_self_overlap: 0.002
+  max_gap: 0.012
+  max_penetration: 0.02
+  max_opposing_cosine: -0.15
+  max_reachability_residual: 0.020

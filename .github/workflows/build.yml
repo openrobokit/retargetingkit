@@ -1,0 +1,38 @@
+name: build
+
+on:
+  push:
+    branches: [main] # PR branches are covered by pull_request (no double run)
+  pull_request:
+    branches: [main]
+
+env:
+  HF_HUB_OFFLINE: "1"
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main repo
+        uses: actions/checkout@v4.1.5
+      - uses: astral-sh/setup-uv@v7
+        with:
+          python-version: "3.14" # newest locked set; `make test-oldest` covers 3.10 at the minimum versions
+          enable-cache: true
+      - name: Cache warp kernels
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/warp
+          key: warp-3.14-${{ hashFiles('pyproject.toml') }}
+      - run: uv sync
+      - run: uv pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - uses: astral-sh/ruff-action@v3
+        with:
+          version: "0.15.22"
+          args: check --output-format github
+      - uses: astral-sh/ruff-action@v3
+        with:
+          version: "0.15.22"
+          args: format --diff
+      - run: uv run pyright
+      - run: uv run pytest --xdoctest

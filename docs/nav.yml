@@ -1,0 +1,59 @@
+# Sidebar for the docs site: groups in order, each listing its pages in order.
+# A `fold` nests its pages under a collapsible run inside the group.
+#
+# id is the page's URL (/docs/retargetingkit/<id>/); keep it stable.
+
+- group: User Guide
+  pages:
+    - {id: overview, file: guide/overview.md, nav: Overview}
+    - {id: quickstart, file: guide/quickstart.md}
+    - {id: install, file: guide/installation.md}
+    - {id: hand-optimization, file: guide/hand_retargeting.md}
+    - {id: neural-hand, file: guide/neural_hand_retargeting.md}
+    - {id: arm-retargeting, file: guide/arm_retargeting.md}
+    - {id: humanoid-retargeting, file: guide/humanoid_retargeting.md}
+    - {id: full-body, file: guide/full_body_retargeting.md}
+    - {id: teleoperation, file: guide/teleoperation.md}
+    - {id: ref-assets, file: guide/assets.md, nav: Assets}
+
+- group: Concepts
+  pages:
+    - {id: pipeline, file: concepts/pipeline.md}
+    - {id: frames, file: concepts/frames.md}
+    - {id: protocols, file: concepts/interfaces.md}
+
+- group: Reference
+  folds:
+    - fold: Sources
+      pages:
+        - {id: quest3, file: reference/sources/quest3.md, nav: Quest 3}
+        - {id: vision-pro, file: reference/sources/vision_pro.md, nav: Apple Vision Pro}
+        - {id: pico, file: reference/sources/pico.md, nav: PICO}
+        - {id: manus, file: reference/sources/manus.md}
+        - {id: axis-studio, file: reference/sources/axis_studio.md}
+        - {id: realsense, file: reference/sources/realsense.md}
+        - {id: zed, file: reference/sources/zed.md}
+    - fold: Targets
+      pages:
+        - {id: xarm, file: reference/targets/xarm.md}
+        - {id: xhand, file: reference/targets/xhand.md}
+        - {id: sharpa-hand, file: reference/targets/sharpa_hand.md}
+        - {id: ability-hand, file: reference/targets/ability_hand.md}
+        - {id: inspire, file: reference/targets/inspire.md}
+        - {id: g1, file: reference/targets/g1.md}
+        - {id: rby1, file: reference/targets/rby1.md}
+        - {id: dexmate, file: reference/targets/dexmate.md}
+    - fold: API
+      pages:
+        - {id: ref-frames, file: reference/api/frames.md, nav: Frames}
+        - {id: ref-sources, file: reference/api/sources.md, nav: Sources}
+        - {id: ref-hand, file: reference/api/hand.md, nav: Hand retargeters}
+        - {id: ref-arm, file: reference/api/arm.md, nav: Arm retargeter}
+        - {id: ref-humanoid, file: reference/api/humanoid.md, nav: Humanoid retargeter}
+        - {id: ref-targets, file: reference/api/targets.md, nav: Commands and targets}
+        - {id: ref-target-configs, file: reference/api/target_configs.md, nav: Target configs}
+        - {id: ref-teleop, file: reference/api/teleop.md, nav: Teleop configs}
+
+- group: Development
+  pages:
+    - {id: development, file: dev.md}

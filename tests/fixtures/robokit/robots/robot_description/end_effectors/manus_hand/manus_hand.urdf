@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="manus_hand">
+  <material name="joint_marker">
+    <color rgba="0.2 0.7 1.0 1.0" />
+  </material>
+  <link name="link_0">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <link name="link_1">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_1" type="revolute">
+    <parent link="link_0" />
+    <child link="link_1" />
+    <origin xyz="0.0041800048 0.0172310807 0.0241756998" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_2">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_2" type="revolute">
+    <parent link="link_1" />
+    <child link="link_2" />
+    <origin xyz="0.0067899562 0.0230141878 0.0344564132" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_3">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_3" type="revolute">
+    <parent link="link_2" />
+    <child link="link_3" />
+    <origin xyz="0.0049246028 0.0166826546 0.0244353414" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_4">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_4" type="revolute">
+    <parent link="link_3" />
+    <child link="link_4" />
+    <origin xyz="0.0058866907 0.0197057314 0.0146300122" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_5">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_5" type="revolute">
+    <parent link="link_0" />
+    <child link="link_5" />
+    <origin xyz="-0.0017286026 0.0124690467 0.0276037063" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_6">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_6" type="revolute">
+    <parent link="link_5" />
+    <child link="link_6" />
+    <origin xyz="-0.0058363751 -0.0072245877 0.0719831586" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_7">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_7" type="revolute">
+    <parent link="link_6" />
+    <child link="link_7" />
+    <origin xyz="-0.0000291420 -0.0016938944 0.0397065654" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_8">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_8" type="revolute">
+    <parent link="link_7" />
+    <child link="link_8" />
+    <origin xyz="-0.0000161431 -0.0009488964 0.0222426653" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_9">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_9" type="revolute">
+    <parent link="link_8" />
+    <child link="link_9" />
+    <origin xyz="0.0001337151 -0.0008456953 0.0195234418" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_10">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_10" type="revolute">
+    <parent link="link_0" />
+    <child link="link_10" />
+    <origin xyz="-0.0039783944 0.0001818596 0.0238553733" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_11">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_11" type="revolute">
+    <parent link="link_10" />
+    <child link="link_11" />
+    <origin xyz="-0.0079083331 -0.0158091746 0.0709500536" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_12">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_12" type="revolute">
+    <parent link="link_11" />
+    <child link="link_12" />
+    <origin xyz="0.0032914719 -0.0117740817 0.0462213680" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_13">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_13" type="revolute">
+    <parent link="link_12" />
+    <child link="link_13" />
+    <origin xyz="0.0019304785 -0.0067976099 0.0266658962" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_14">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_14" type="revolute">
+    <parent link="link_13" />
+    <child link="link_14" />
+    <origin xyz="0.0025267503 -0.0056461394 0.0215550214" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_15">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_15" type="revolute">
+    <parent link="link_0" />
+    <child link="link_15" />
+    <origin xyz="-0.0017577755 -0.0127231171 0.0202817116" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_16">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_16" type="revolute">
+    <parent link="link_15" />
+    <child link="link_16" />
+    <origin xyz="-0.0051607154 -0.0236747265 0.0657715350" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_17">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_17" type="revolute">
+    <parent link="link_16" />
+    <child link="link_17" />
+    <origin xyz="0.0009438759 -0.0106756352 0.0400500223" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_18">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_18" type="revolute">
+    <parent link="link_17" />
+    <child link="link_18" />
+    <origin xyz="0.0005019647 -0.0066925064 0.0250203460" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_19">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_19" type="revolute">
+    <parent link="link_18" />
+    <child link="link_19" />
+    <origin xyz="-0.0012485068 -0.0057850890 0.0200013518" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_20">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_20" type="revolute">
+    <parent link="link_0" />
+    <child link="link_20" />
+    <origin xyz="0.0004628266 -0.0256284829 0.0167079344" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_21">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_21" type="revolute">
+    <parent link="link_20" />
+    <child link="link_21" />
+    <origin xyz="-0.0024131290 -0.0315405354 0.0605929941" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_22">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_22" type="revolute">
+    <parent link="link_21" />
+    <child link="link_22" />
+    <origin xyz="0.0049975673 -0.0159373172 0.0261951387" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_23">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_23" type="revolute">
+    <parent link="link_22" />
+    <child link="link_23" />
+    <origin xyz="0.0024922891 -0.0083847940 0.0137184411" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+  <link name="link_24">
+    <visual>
+      <geometry>
+        <sphere radius="0.003" />
+      </geometry>
+      <material name="joint_marker" />
+    </visual>
+  </link>
+  <joint name="joint_24" type="revolute">
+    <parent link="link_23" />
+    <child link="link_24" />
+    <origin xyz="-0.0001786230 -0.0098085478 0.0146218613" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-3.14159265" upper="3.14159265" effort="1.0" velocity="10.0" />
+  </joint>
+</robot>

@@ -1,0 +1,175 @@
+# self-collision ignore set: skip these link pairs during self-collision checking.
+# backend: sphere | samples: 10000 | always_frac: 1.0 | joint_padding: 0.1
+self_collision_ignore:
+  right_hand_C_MC:
+  - right_index_DP  # Never
+  - right_index_MCP_VL  # Adjacent
+  - right_index_MP  # Never
+  - right_middle_MCP_VL  # Adjacent
+  - right_middle_MP  # Never
+  - right_pinky_DP  # Never
+  - right_pinky_MC  # Adjacent
+  - right_pinky_MCP_VL  # Always
+  - right_pinky_MP  # Never
+  - right_ring_DP  # Never
+  - right_ring_MCP_VL  # Adjacent
+  - right_ring_MP  # Never
+  - right_thumb_MC  # Default
+  right_index_DP:
+  - right_index_elastomer  # Adjacent
+  - right_middle_MCP_VL  # Never
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_pinky_PP  # Never
+  - right_ring_MCP_VL  # Never
+  right_index_MCP_VL:
+  - right_index_DP  # Never
+  - right_index_MP  # Never
+  - right_index_PP  # Adjacent
+  - right_index_elastomer  # Never
+  - right_middle_DP  # Never
+  - right_middle_MCP_VL  # Always
+  - right_middle_MP  # Never
+  - right_middle_elastomer  # Never
+  - right_pinky_DP  # Never
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_pinky_MP  # Never
+  - right_pinky_PP  # Never
+  - right_pinky_elastomer  # Never
+  - right_ring_DP  # Never
+  - right_ring_MCP_VL  # Never
+  - right_ring_MP  # Never
+  - right_ring_PP  # Never
+  - right_ring_elastomer  # Never
+  right_index_MP:
+  - right_index_DP  # Adjacent
+  - right_index_elastomer  # Adjacent
+  - right_middle_MCP_VL  # Never
+  - right_middle_MP  # Default
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_ring_MCP_VL  # Never
+  right_index_PP:
+  - right_index_DP  # Never
+  - right_index_MP  # Adjacent
+  - right_index_elastomer  # Never
+  - right_middle_PP  # Default
+  - right_pinky_DP  # Never
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_pinky_elastomer  # Never
+  - right_ring_MCP_VL  # Never
+  - right_ring_elastomer  # Never
+  right_index_elastomer:
+  - right_middle_MCP_VL  # Never
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_pinky_PP  # Never
+  - right_ring_MCP_VL  # Never
+  right_middle_DP:
+  - right_middle_elastomer  # Adjacent
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_ring_MCP_VL  # Never
+  right_middle_MCP_VL:
+  - right_middle_DP  # Never
+  - right_middle_MP  # Never
+  - right_middle_PP  # Adjacent
+  - right_middle_elastomer  # Never
+  - right_pinky_DP  # Never
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_pinky_MP  # Never
+  - right_pinky_PP  # Never
+  - right_pinky_elastomer  # Never
+  - right_ring_DP  # Never
+  - right_ring_MCP_VL  # Always
+  - right_ring_MP  # Never
+  - right_ring_PP  # Default
+  - right_ring_elastomer  # Never
+  right_middle_MP:
+  - right_middle_DP  # Adjacent
+  - right_middle_elastomer  # Adjacent
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_ring_MCP_VL  # Never
+  - right_ring_MP  # Default
+  right_middle_PP:
+  - right_middle_DP  # Never
+  - right_middle_MP  # Adjacent
+  - right_middle_elastomer  # Never
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_ring_PP  # Default
+  right_middle_elastomer:
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_ring_MCP_VL  # Never
+  right_pinky_DP:
+  - right_pinky_elastomer  # Adjacent
+  right_pinky_MC:
+  - right_pinky_DP  # Never
+  - right_pinky_MCP_VL  # Adjacent
+  - right_pinky_MP  # Never
+  right_pinky_MCP_VL:
+  - right_pinky_DP  # Never
+  - right_pinky_MP  # Never
+  - right_pinky_PP  # Adjacent
+  - right_pinky_elastomer  # Never
+  right_pinky_MP:
+  - right_pinky_DP  # Adjacent
+  - right_pinky_elastomer  # Adjacent
+  right_pinky_PP:
+  - right_pinky_DP  # Never
+  - right_pinky_MP  # Adjacent
+  - right_pinky_elastomer  # Never
+  right_ring_DP:
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_ring_elastomer  # Adjacent
+  right_ring_MCP_VL:
+  - right_pinky_DP  # Never
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Always
+  - right_pinky_MP  # Never
+  - right_pinky_PP  # Default
+  - right_pinky_elastomer  # Never
+  - right_ring_DP  # Never
+  - right_ring_MP  # Never
+  - right_ring_PP  # Adjacent
+  - right_ring_elastomer  # Never
+  right_ring_MP:
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_pinky_MP  # Default
+  - right_ring_DP  # Adjacent
+  - right_ring_elastomer  # Adjacent
+  right_ring_PP:
+  - right_pinky_MC  # Never
+  - right_pinky_PP  # Default
+  - right_ring_DP  # Never
+  - right_ring_MP  # Adjacent
+  - right_ring_elastomer  # Never
+  right_ring_elastomer:
+  - right_pinky_MCP_VL  # Never
+  right_thumb_DP:
+  - right_pinky_MC  # Never
+  - right_thumb_elastomer  # Adjacent
+  right_thumb_MC:
+  - right_index_MCP_VL  # Never
+  - right_index_PP  # Never
+  - right_middle_MCP_VL  # Never
+  - right_middle_PP  # Never
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_pinky_PP  # Never
+  - right_ring_MCP_VL  # Never
+  - right_ring_PP  # Never
+  - right_thumb_DP  # Never
+  - right_thumb_elastomer  # Never
+  right_thumb_PP:
+  - right_pinky_MC  # Never
+  - right_pinky_MCP_VL  # Never
+  - right_thumb_DP  # Adjacent
+  - right_thumb_elastomer  # Adjacent

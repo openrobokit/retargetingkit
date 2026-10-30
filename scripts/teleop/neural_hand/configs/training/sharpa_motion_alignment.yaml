@@ -1,0 +1,52 @@
+hand: sharpa
+output: ik_model/sharpa_motion_alignment
+robot_samples: 1000000
+
+data:
+  unsupervised:
+    - manus_unsupervised
+  pair:
+    - asset: sharpa_open
+      source_weight: 1.5
+      finger_mask:
+        - [1, 1, 1, 1, 1]
+    - asset: sharpa_pinch
+      source_weight: 1.0
+      finger_mask:
+        - [1, 1, 0, 0, 0]
+        - [1, 0, 1, 0, 0]
+        - [1, 0, 0, 1, 0]
+        - [1, 0, 0, 0, 1]
+    - asset: sharpa_rest
+      source_weight: 1.0
+      finger_mask:
+        - [1, 1, 1, 1, 1]
+  contact: []
+  training_samples: 20000
+  voxel_size_m: 0.003
+
+objective:
+  pair: 40.0
+  pair_position: 0.0
+  contact: 0.0
+  motion:
+    formula: motion_alignment
+    weight: 60.0
+    directions: 64
+    temperature: 0.05
+    perturb_min_m: 0.001
+    perturb_max_m: 0.011
+  conformal: 10.0
+  curvature: 100000000.0
+  pinch: 750.0
+  interfinger: 150.0
+  collision: 20.0
+
+optimization:
+  epochs: 500
+  batch_size: 2048
+  learning_rate: 2.0e-4
+  schedule: cosine
+  warmup_epochs: 10
+  ema_decay: 0.995
+  seed: 7

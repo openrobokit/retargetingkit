@@ -1,0 +1,80 @@
+# self-collision ignore set: skip these link pairs during self-collision checking.
+# backend: sphere | samples: 10000 | always_frac: 1.0 | joint_padding: 0.1
+self_collision_ignore:
+  hand_base_link:
+  - index_proximal  # Adjacent
+  - middle_proximal  # Adjacent
+  - pinky_proximal  # Adjacent
+  - ring_proximal  # Adjacent
+  - thumb_distal  # Never
+  - thumb_intermediate  # Never
+  - thumb_proximal  # Default
+  - thumb_proximal_base  # Adjacent
+  index_intermediate:
+  - middle_intermediate  # Never
+  - middle_proximal  # Never
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  - ring_intermediate  # Never
+  - ring_proximal  # Never
+  index_proximal:
+  - index_intermediate  # Adjacent
+  - middle_intermediate  # Never
+  - middle_proximal  # Never
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  - ring_intermediate  # Never
+  - ring_proximal  # Never
+  middle_intermediate:
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  - ring_intermediate  # Never
+  - ring_proximal  # Never
+  middle_proximal:
+  - middle_intermediate  # Adjacent
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  - ring_intermediate  # Never
+  - ring_proximal  # Never
+  pinky_proximal:
+  - pinky_intermediate  # Adjacent
+  ring_intermediate:
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  ring_proximal:
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  - ring_intermediate  # Adjacent
+  thumb_distal:
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  - ring_intermediate  # Never
+  - ring_proximal  # Never
+  thumb_intermediate:
+  - middle_proximal  # Never
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  - ring_intermediate  # Never
+  - ring_proximal  # Never
+  - thumb_distal  # Adjacent
+  thumb_proximal:
+  - index_proximal  # Never
+  - middle_proximal  # Never
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  - ring_intermediate  # Never
+  - ring_proximal  # Never
+  - thumb_distal  # Never
+  - thumb_intermediate  # Adjacent
+  thumb_proximal_base:
+  - index_intermediate  # Never
+  - index_proximal  # Never
+  - middle_intermediate  # Never
+  - middle_proximal  # Never
+  - pinky_intermediate  # Never
+  - pinky_proximal  # Never
+  - ring_intermediate  # Never
+  - ring_proximal  # Never
+  - thumb_distal  # Never
+  - thumb_intermediate  # Never
+  - thumb_proximal  # Adjacent
