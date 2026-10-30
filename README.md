@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://openrobokit.com/retargetingkit"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/retargetingkit-banner.webp" alt="RetargetingKit" width="100%"></a>
+  <a href="https://github.com/openrobokit/retargetingkit"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/retargetingkit-banner.webp" alt="RetargetingKit" width="100%"></a>
 </p>
 
 <p align="center">
@@ -7,7 +7,7 @@
   <a href="https://github.com/openrobokit/retargetingkit/actions/workflows/build.yml"><img src="https://img.shields.io/badge/CI-GitHub_Actions-blue" alt="GitHub Actions"></a>
 </p>
 
-RetargetingKit maps live or recorded human motion to robot hands, arms, and humanoids using [RoboKit](https://openrobokit.com/robokit) optimization and neural hand models.
+RetargetingKit maps live or recorded human motion to robot hands, arms, and humanoids using [RoboKit](https://github.com/openrobokit/robokit) optimization and neural hand models.
 
 The two main applications are:
 
@@ -16,10 +16,10 @@ The two main applications are:
 
 ## Quick links
 
-- [Docs](https://openrobokit.com/docs/retargetingkit/overview/)
-- [Quickstart](https://openrobokit.com/docs/retargetingkit/quickstart/)
-- [Installation](https://openrobokit.com/docs/retargetingkit/install/)
-- [Development](https://openrobokit.com/docs/retargetingkit/development/)
+- [Docs](https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/overview.md)
+- [Quickstart](https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/quickstart.md)
+- [Installation](https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/installation.md)
+- [Development](https://github.com/openrobokit/retargetingkit/blob/main/docs/dev.md)
 
 ## Installation
 
@@ -36,8 +36,8 @@ See [Installation](https://github.com/openrobokit/retargetingkit/blob/main/docs/
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://openrobokit.com/docs/retargetingkit/hand-optimization/#work-with-trajectories"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/hand-retargeting.webp" alt="Tracked hand skeleton and retargeted robot hand side by side" width="300"></a><br>
-      <strong><a href="https://openrobokit.com/docs/retargetingkit/hand-optimization/#work-with-trajectories">Hand<br>retargeting</a></strong>
+      <a href="https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/hand_retargeting.md#work-with-trajectories"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/hand-retargeting.webp" alt="Tracked hand skeleton and retargeted robot hand side by side" width="300"></a><br>
+      <strong><a href="https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/hand_retargeting.md#work-with-trajectories">Hand<br>retargeting</a></strong>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="src/retargetingkit/gallery/hand_contact.py"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/hand-geometry-sim.webp" alt="Robot hand grasping a sage cylinder in a white studio" width="300"></a><br>
@@ -46,8 +46,8 @@ See [Installation](https://github.com/openrobokit/retargetingkit/blob/main/docs/
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://openrobokit.com/docs/retargetingkit/humanoid-retargeting/"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/humanoid-retargeting.webp" alt="Human body skeleton and retargeted humanoid side by side" width="300"></a><br>
-      <strong><a href="https://openrobokit.com/docs/retargetingkit/humanoid-retargeting/">Humanoid<br>retargeting</a></strong>
+      <a href="https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/humanoid_retargeting.md"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/humanoid-retargeting.webp" alt="Human body skeleton and retargeted humanoid side by side" width="300"></a><br>
+      <strong><a href="https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/humanoid_retargeting.md">Humanoid<br>retargeting</a></strong>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="src/retargetingkit/gallery/humanoid_terrain.py"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/humanoid-geometry.webp" alt="Rendered humanoid crouching and climbing on stepped terrain" width="300"></a><br>
@@ -56,12 +56,12 @@ See [Installation](https://github.com/openrobokit/retargetingkit/blob/main/docs/
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://openrobokit.com/docs/retargetingkit/full-body/"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/full-body-retargeting.webp" alt="Standing humanoid turning and taking small steps on a white background" width="300"></a><br>
-      <strong><a href="https://openrobokit.com/docs/retargetingkit/full-body/">Full-body<br>retargeting</a></strong>
+      <a href="https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/full_body_retargeting.md"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/full-body-retargeting.webp" alt="Standing humanoid turning and taking small steps on a white background" width="300"></a><br>
+      <strong><a href="https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/full_body_retargeting.md">Full-body<br>retargeting</a></strong>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://openrobokit.com/docs/retargetingkit/full-body/#retarget-an-indoor-interaction"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/full-body-geometry.webp" alt="Rendered humanoid interacting with objects and furniture in a kitchen on a white background" width="300"></a><br>
-      <strong><a href="https://openrobokit.com/docs/retargetingkit/full-body/#retarget-an-indoor-interaction">Geometry-aware full-body<br>retargeting</a></strong>
+      <a href="https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/full_body_retargeting.md#retarget-an-indoor-interaction"><img src="https://raw.githubusercontent.com/openrobokit/retargetingkit/main/docs/assets/built-in-tasks/full-body-geometry.webp" alt="Rendered humanoid interacting with objects and furniture in a kitchen on a white background" width="300"></a><br>
+      <strong><a href="https://github.com/openrobokit/retargetingkit/blob/main/docs/guide/full_body_retargeting.md#retarget-an-indoor-interaction">Geometry-aware full-body<br>retargeting</a></strong>
     </td>
   </tr>
 </table>
@@ -88,11 +88,11 @@ flowchart LR
 
 | Component | Role | Read more |
 | --- | --- | --- |
-| Source | Read a device or recording and produce a canonical frame. | [Sources](https://openrobokit.com/docs/retargetingkit/pipeline/#three-stages) |
-| Frame | Represent human hand, arm, or body motion. | [Frames](https://openrobokit.com/docs/retargetingkit/frames/) |
-| Retargeter | Solve hand, arm, or body motion using RoboKit. | [Interfaces](https://openrobokit.com/docs/retargetingkit/protocols/) |
-| Command | Carry robot joint positions and an optional base pose. | [Commands](https://openrobokit.com/docs/retargetingkit/ref-targets/) |
-| Target | Preview commands or send them to a robot. | [Targets](https://openrobokit.com/docs/retargetingkit/ref-targets/) |
+| Source | Read a device or recording and produce a canonical frame. | [Sources](https://github.com/openrobokit/retargetingkit/blob/main/docs/concepts/pipeline.md#three-stages) |
+| Frame | Represent human hand, arm, or body motion. | [Frames](https://github.com/openrobokit/retargetingkit/blob/main/docs/concepts/frames.md) |
+| Retargeter | Solve hand, arm, or body motion using RoboKit. | [Interfaces](https://github.com/openrobokit/retargetingkit/blob/main/docs/concepts/interfaces.md) |
+| Command | Carry robot joint positions and an optional base pose. | [Commands](https://github.com/openrobokit/retargetingkit/blob/main/docs/reference/api/targets.md) |
+| Target | Preview commands or send them to a robot. | [Targets](https://github.com/openrobokit/retargetingkit/blob/main/docs/reference/api/targets.md) |
 
-See the [framework overview](https://openrobokit.com/docs/retargetingkit/pipeline/) for frames, commands,
+See the [framework overview](https://github.com/openrobokit/retargetingkit/blob/main/docs/concepts/pipeline.md) for frames, commands,
 and named rigs.

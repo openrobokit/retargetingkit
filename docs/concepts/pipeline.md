@@ -72,4 +72,4 @@ if frame is not None:
 
 Humanoid runtimes call `target.set_command(command)` so the target receives the base pose together with the joints. The runtime also owns startup and cleanup; the snippet shows only one update.
 
-See [Interfaces](interfaces.md) to build a custom pipeline, or [RoboKit's robot model](https://openrobokit.com/docs/robokit/robot/) for the underlying kinematics.
+See [Interfaces](interfaces.md) to build a custom pipeline, or [RoboKit's robot model](https://github.com/openrobokit/robokit/blob/main/docs/concepts/robot.md) for the underlying kinematics.

@@ -1,8 +1,7 @@
 # Full-Body Retargeting
 
-| ![SAGA body and hand interaction retargeted in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/full_body_hoi.webp) | ![ParaHome body and scene interaction retargeted in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/full_body_hsi.webp) |
-| --- | --- |
 | Body, hand, and object interaction. | Body and hand motion in a furnished scene. |
+| --- | --- |
 
 Retarget body motion, articulated fingers, and object interaction together to a G1 with Inspire hands. RetargetingKit loads SAGA or ParaHome clips; RoboKit solves the robot motion and object poses.
 

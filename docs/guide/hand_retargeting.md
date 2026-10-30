@@ -1,8 +1,7 @@
 # Hand Retargeting
 
-| ![Tracked hand retargeted to an xArm7 and XHand](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_retargeting.webp) | ![Hand-object contact refinement in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_contact.webp) |
-| --- | --- |
 | Hand motion on a robot assembly. | Hand-object contact refinement. |
+| --- | --- |
 
 Map human hand motion to robot joint positions with RoboKit's online or offline optimization. Start with a recorded example, then connect a [Manus glove](../reference/sources/manus.md) or [Apple Vision Pro](../reference/sources/vision_pro.md).
 

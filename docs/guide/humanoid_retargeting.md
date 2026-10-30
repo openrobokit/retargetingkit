@@ -1,8 +1,7 @@
 # Humanoid Retargeting
 
-| ![Human motion retargeted to a G1 in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/humanoid.webp) | ![Humanoid adapting motion to terrain in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/humanoid_terrain.webp) |
-| --- | --- |
 | Human motion mapped to a humanoid. | Humanoid motion on terrain. |
+| --- | --- |
 
 Map recorded or live body motion to G1 at 50 Hz. The runtime sends robot root pose and joint positions to its configured targets; the SONIC target derives joint velocities for whole-body control.
 

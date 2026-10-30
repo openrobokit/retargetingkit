@@ -1,7 +1,5 @@
 # Neural Hand Retargeting
 
-![Neural hand inference in the interactive gallery](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_neural.webp)
-
 Train a model for one robot hand, then map wrist-local MANO-21 keypoints to joint positions in URDF order. Curated checkpoints support Allegro, Sharpa Wave, and XHand.
 
 ## How Inference Works

@@ -1,7 +1,5 @@
 # Arm Retargeting
 
-![An xArm7 carrying an XHand in the interactive retargeting gallery](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_retargeting.webp)
-
 Map a tracked wrist to an xArm6 or xArm7 end effector. The arm solver uses RoboKit inverse kinematics with position, orientation, joint-limit, and smoothness terms.
 
 ## How Retargeting Works
