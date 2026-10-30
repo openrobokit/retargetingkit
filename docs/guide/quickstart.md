@@ -11,21 +11,17 @@ uvx --from 'retargetingkit[vis]' \
 
 Open the Viser URL printed in the terminal. Select a robot and motion, then play or scrub the result. Replace `hand_retargeting` with any gallery below. Each preview records that gallery's Viser scene.
 
-| ![Hand retargeting in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_retargeting.webp) | ![Neural hand retargeting in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_neural.webp) | ![Hand contact retargeting in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_contact.webp) |
-| --- | --- | --- |
 | **`hand_retargeting`** Retarget tracked hands. | **`hand_neural`** Compare neural hand models. | **`hand_contact`** Refine hand-object contact. |
-
-| ![DexMachina hand-object retargeting in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_object_dexmachina.webp) | ![GigaHands hand-object retargeting in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_object_gigahands.webp) | ![OakInk2 hand-object retargeting in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/hand_object_oakink2.webp) |
 | --- | --- | --- |
+
 | **`hand_object_dexmachina`** Explore DexMachina interactions. | **`hand_object_gigahands`** Explore GigaHands interactions. | **`hand_object_oakink2`** Explore OakInk2 interactions. |
-
-| ![Humanoid retargeting in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/humanoid.webp) | ![Humanoid contact retargeting in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/humanoid_contact.webp) | ![Humanoid terrain retargeting in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/humanoid_terrain.webp) |
 | --- | --- | --- |
-| **`humanoid`** Browse motions and robot presets. | **`humanoid_contact`** Retarget object interactions. | **`humanoid_terrain`** Adapt motion to terrain. |
 
-| ![Full-body object interaction in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/full_body_hoi.webp) | ![Full-body scene interaction in Viser](https://openrobokit.com/assets/docs/retargetingkit/assets/gallery/full_body_hsi.webp) |
-| --- | --- |
+| **`humanoid`** Browse motions and robot presets. | **`humanoid_contact`** Retarget object interactions. | **`humanoid_terrain`** Adapt motion to terrain. |
+| --- | --- | --- |
+
 | **`full_body_hoi`** Retarget body and hand interactions. | **`full_body_hsi`** Retarget body motion in furnished scenes. |
+| --- | --- |
 
 To list gallery module names from an installed checkout, run `uv run python -m retargetingkit.gallery`. Gallery data, robot models, and checkpoints download on first use; complete [asset setup](assets.md) first.
 

@@ -1,4 +1,4 @@
-[![RetargetingKit](../assets/retargetingkit-banner.webp)](https://openrobokit.com/retargetingkit)
+![RetargetingKit](../assets/retargetingkit-banner.webp)
 
 RetargetingKit maps human motion to robot hands, arms, and humanoids. It combines RoboKit optimization with neural hand models for recorded motion and real-time teleoperation.
 
