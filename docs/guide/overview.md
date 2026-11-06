@@ -1,4 +1,6 @@
-![RetargetingKit](../assets/retargetingkit-banner.webp)
+![RetargetingKit](https://openrobokit.com/assets/docs/retargetingkit/assets/retargetingkit-banner.webp)
+
+[![Dexterous hand and humanoid motion](https://openrobokit.com/assets/docs/retargetingkit/assets/retargetingkit-paper-teaser.png)](https://openrobokit.com/retargetingkit)
 
 RetargetingKit maps human motion to robot hands, arms, and humanoids. It combines RoboKit optimization with neural hand models for recorded motion and real-time teleoperation.
 
@@ -37,17 +39,17 @@ flowchart LR
 
 ## Features
 
-| [![Hand retargeting](../assets/built-in-tasks/hand-retargeting.webp)](hand_retargeting.md) | [![Geometry-aware hand retargeting](../assets/built-in-tasks/hand-geometry-sim.webp)](hand_retargeting.md#inspect-object-contact) |
-| --- | --- |
-| **[Hand retargeting](hand_retargeting.md)** Map tracked hand motion to robot joints. | **[Geometry-aware hand retargeting](hand_retargeting.md#inspect-object-contact)** Refine hands against object geometry. |
+| [![Hand retargeting](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/hand-retargeting.webp)](hand_retargeting.md) | [![Geometry-aware hand retargeting](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/hand-geometry-sim.webp)](hand_retargeting.md#inspect-object-contact) | [![Real-time hand teleoperation](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/hand-geometry.webp)](hand_retargeting.md#preview-live-motion) |
+| --- | --- | --- |
+| **[Hand retargeting](hand_retargeting.md)** Map tracked hand motion to robot joints. | **[Geometry-aware hand retargeting](hand_retargeting.md#inspect-object-contact)** Refine hands against object geometry. | **[Real-time hand teleoperation](hand_retargeting.md#preview-live-motion)** Drive a robot hand from live tracking. |
 
-| [![Humanoid retargeting](../assets/built-in-tasks/humanoid-retargeting.webp)](humanoid_retargeting.md) | [![Geometry-aware humanoid retargeting](../assets/built-in-tasks/humanoid-geometry.webp)](humanoid_retargeting.md) |
-| --- | --- |
-| **[Humanoid retargeting](humanoid_retargeting.md)** Map captured body motion to humanoids. | **[Geometry-aware humanoid retargeting](humanoid_retargeting.md)** Account for terrain and contact. |
+| [![Humanoid retargeting](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/humanoid-retargeting.webp)](humanoid_retargeting.md) | [![Geometry-aware humanoid retargeting](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/humanoid-geometry.webp)](humanoid_retargeting.md) | [![Real-time humanoid teleoperation](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/humanoid-teleoperation.webp)](humanoid_retargeting.md) |
+| --- | --- | --- |
+| **[Humanoid retargeting](humanoid_retargeting.md)** Map captured body motion to humanoids. | **[Geometry-aware humanoid retargeting](humanoid_retargeting.md)** Account for terrain and contact. | **[Real-time humanoid teleoperation](humanoid_retargeting.md)** Drive a humanoid from live motion. |
 
-| [![Full-body retargeting](../assets/built-in-tasks/full-body-retargeting.webp)](full_body_retargeting.md) | [![Geometry-aware full-body retargeting](../assets/built-in-tasks/full-body-geometry.webp)](full_body_retargeting.md#retarget-an-indoor-interaction) |
-| --- | --- |
-| **[Full-body retargeting](full_body_retargeting.md)** Combine body and hand motion. | **[Geometry-aware full-body retargeting](full_body_retargeting.md#retarget-an-indoor-interaction)** Preserve scene and object interactions. |
+| [![Full-body retargeting](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/full-body-retargeting.webp)](full_body_retargeting.md) | [![Geometry-aware full-body retargeting](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/full-body-geometry.webp)](full_body_retargeting.md#retarget-an-indoor-interaction) | [![Real-time full-body teleoperation](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/full-body-teleoperation.webp)](humanoid_retargeting.md#control-both-inspire-hands) |
+| --- | --- | --- |
+| **[Full-body retargeting](full_body_retargeting.md)** Combine body and hand motion. | **[Geometry-aware full-body retargeting](full_body_retargeting.md#retarget-an-indoor-interaction)** Preserve scene and object interactions. | **[Real-time full-body teleoperation](humanoid_retargeting.md#control-both-inspire-hands)** Drive body and hands together. |
 
 ## Quick links
 

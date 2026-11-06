@@ -1,6 +1,6 @@
 # Apple Vision Pro
 
-![Tracking Streamer: note the headset IP and select Start.](../../assets/sources/vision-pro-tracking-streamer-start.jpg)
+![Tracking Streamer: note the headset IP and select Start.](https://openrobokit.com/assets/docs/retargetingkit/assets/sources/vision-pro-tracking-streamer-start.jpg)
 
 Stream head, wrist, and finger tracking from Apple Vision Pro with `avp_stream`. RetargetingKit can drive robot hands, robot arms, or synchronized arm-and-hand assemblies, and replay the same tracking from a recording.
 
@@ -12,7 +12,7 @@ Stream head, wrist, and finger tracking from Apple Vision Pro with `avp_stream`.
 
 ## Connect the headset
 
-![Open Tracking Streamer from the Vision Pro app launcher.](../../assets/sources/vision-pro-tracking-streamer-app.jpg)
+![Open Tracking Streamer from the Vision Pro app launcher.](https://openrobokit.com/assets/docs/retargetingkit/assets/sources/vision-pro-tracking-streamer-app.jpg)
 
 1. Connect the workstation and Vision Pro to the same Wi-Fi network.
 2. Open **Tracking Streamer** on Vision Pro.

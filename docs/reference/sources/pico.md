@@ -1,6 +1,6 @@
 # PICO
 
-![XRoboToolkit full-body settings. Use your workstation IP; the screenshot shows an example.](../../assets/sources/xrobotoolkit-pico-fullbody-settings.jpeg)
+![XRoboToolkit full-body settings. Use your workstation IP; the screenshot shows an example.](https://openrobokit.com/assets/docs/retargetingkit/assets/sources/xrobotoolkit-pico-fullbody-settings.jpeg)
 
 Use PICO full-body tracking through XRoboToolkit to retarget a 24-joint body to Unitree G1. Record sessions for offline replay, or use controller buttons to open and close two Inspire hands alongside body motion.
 

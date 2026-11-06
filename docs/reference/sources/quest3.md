@@ -1,6 +1,6 @@
 # Quest 3
 
-![CloudXR Web Client: enter the workstation IP, accept its certificate, then connect.](../../assets/sources/cloudxr-web-client-howto.png)
+![CloudXR Web Client: enter the workstation IP, accept its certificate, then connect.](https://openrobokit.com/assets/docs/retargetingkit/assets/sources/cloudxr-web-client-howto.png)
 
 Use Quest 3 controllers to move one or two xArm6 or xArm7 end effectors. Tracking comes through NVIDIA Isaac Teleop and CloudXR. The standalone playground supports a Viser preview, controller calibration, and hardware control.
 
@@ -30,7 +30,7 @@ sudo ufw allow 49100,48322/tcp
 
 Open the [Isaac Teleop WebXR client](https://nvidia.github.io/IsaacTeleop/client) in the headset browser. Enter the workstation IP, accept its generated certificate, and select **Connect**, then **Play**.
 
-![CloudXR confirms that the certificate was accepted.](../../assets/sources/cloudxr_accept_cert_accepted.png)
+![CloudXR confirms that the certificate was accepted.](https://openrobokit.com/assets/docs/retargetingkit/assets/sources/cloudxr_accept_cert_accepted.png)
 
 ## Check tracking
 
@@ -77,8 +77,8 @@ Use `--arm xarm6` to select xArm6. Each arm moves to its home pose during startu
 
 ## Keep the headset awake
 
-![Open Device Settings & Tools in SideQuest.](../../assets/sources/sidequest_tool.png)
+![Open Device Settings & Tools in SideQuest.](https://openrobokit.com/assets/docs/retargetingkit/assets/sources/sidequest_tool.png)
 
-![Disable the proximity sensor for an uninterrupted session.](../../assets/sources/disable_proximity_sensor.png)
+![Disable the proximity sensor for an uninterrupted session.](https://openrobokit.com/assets/docs/retargetingkit/assets/sources/disable_proximity_sensor.png)
 
 For long sessions, enable developer mode, connect SideQuest over USB, and disable the proximity sensor in **Device Settings & Tools**.
