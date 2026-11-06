@@ -1,5 +1,9 @@
 # Teleoperation
 
+| ![Real-time robot hand teleoperation](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/hand-geometry.webp) | ![Real-time humanoid teleoperation](https://openrobokit.com/assets/docs/retargetingkit/assets/built-in-tasks/humanoid-teleoperation.webp) |
+| --- | --- |
+| Dexterous hand control. | Humanoid motion control. |
+
 A named rig connects a source, retargeter, and target in one command. Choose the flow that matches the motion you want to control, then complete the linked device setup.
 
 ## Choose a flow
